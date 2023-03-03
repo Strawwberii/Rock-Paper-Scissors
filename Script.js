@@ -4,6 +4,7 @@ console.log("Hello World!")
 let rock;
 let paper;
 let scissors;
+
 // Randomly return rock, paper or scissors
 
 function getComputerChoice(){
@@ -20,3 +21,20 @@ function getComputerChoice(){
     
 }
 getComputerChoice()
+
+// Get computer selection
+let computerSelection = getComputerChoice();
+computerSelection = getComputerChoice().toLowerCase();
+
+// Get player's selection
+
+let playerSelection = prompt("Enter rock, paper or scissors!");
+playerSelection = playerSelection.toLowerCase();
+
+// find the winner
+
+function playRound(playerSelection, computerSelection){
+
+
+}
+
