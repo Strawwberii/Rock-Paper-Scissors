@@ -7,15 +7,15 @@ let scissors;
 // Randomly return rock, paper or scissors
 
 function getComputerChoice(){
-    let randomNumber = Math.random(0.2)*10;
+    let randomNumber = Math.floor(Math.random()*3);
     if (randomNumber == 0){
-        return console.log("Rock!");
+         console.log("Rock!");
     }
     else if (randomNumber == 1){
-        return console.log("Paper!");
+         console.log("Paper!");
     }
     else {
-        return console.log("Scissors!");
+         console.log("Scissors!");
     }
     
 }
